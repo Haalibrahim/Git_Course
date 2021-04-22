@@ -1,9 +1,19 @@
 # Git_Course
-I am learning Git so I created this respo to play and test the platform.
+I am starting to learn Git and I am going to use this space to practice. On this page, I will list all the commands that I learned.
 
-## Subheader
-Watch the tutorial on YouTube.
+# git commands on your local machine:
+# to check the version of git on your machine
+git --version 
+# to configure your name and email
+git config --global user.name"Your Name"
+git config
+# to check for the current configuration
+git config --global --list
 
-## Project Notes
-- third commit 
-- another line
+
+## to create a new folder: 
+git init my-project 
+
+## to push for respo
+git remote add origin https://github.com/Haalibrahim/Git_Course.git
+git push -u origin master
